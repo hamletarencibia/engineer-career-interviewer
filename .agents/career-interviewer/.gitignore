@@ -1,0 +1,18 @@
+# Defense in depth for a PUBLIC skill repository. Keep these rules at the actual repo root.
+# Do NOT keep populated career source-of-truth files in a public repository,
+# even if Git ignores them: use a separate private repository or folder instead.
+career.md
+**/career.md
+career-private*.md
+**/career-private*.md
+career-notes/
+**/career-notes/
+private-career/
+**/private-career/
+.interview-data/
+**/.interview-data/
+.env
+.env.*
+**/.env
+**/.env.*
+# The committed assets/career-template.md is an EMPTY synthetic template.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Career Interviewer"
+  short_description: "Interview software developers and document engineering experience"
+  default_prompt: "Interview me about my software engineering work, technical decisions, contributions and outcomes. Build or update a factual private career.md with Standard depth and Rapid Fire pacing by default."
